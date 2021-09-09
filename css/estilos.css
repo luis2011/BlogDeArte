@@ -1,0 +1,237 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+
+
+body{
+    font-family: 'Oswald';
+   background-color: black;
+    
+}
+.contenedor{
+    max-width: 120rem;
+    width: 90%;
+    margin: 0 auto;
+}
+
+a{
+    text-decoration: none;
+}
+h1{
+    font-size:  3rem;
+}
+h2{
+    font-size: 2.4rem;
+}
+h3{
+    font-size: 2.1rem;
+}
+h4{
+    font-size: 2rem;
+}
+img{
+    max-width: 100%; /*con esto las hago responsive*/
+}
+input[value="nombre"] {
+    background: #ffc107;
+    border-color: black;
+    
+}
+input[value="apellido"] {
+    background: #ffc107;
+    border-color: black;
+}
+input[value="email"] {
+    background: #ffc107;
+    border-color: black;
+}
+input[value="telefono"] {
+    background: #ffc107;
+    border-color: black;
+}
+textarea[value="mensaje"] {
+    background: #ffc107;
+    border-color: black;
+}
+
+input::placeholder { 
+    color: black !important;
+}
+textarea::placeholder { 
+    color: black !important;
+}
+
+.centrar-texto{
+    text-align: center;
+}
+
+.nav-link-hover:hover{
+    border-bottom:  1px solid yellow;
+   
+}
+.navbar-light .navbar-toggler {
+    background-color: #ffc107;
+    border-color: #ffc107;
+  }
+.header__texto{
+    text-align: center;
+    color: white;
+}
+@media (min-width:768px){
+    .barra{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+.titulo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.logo__nombre__principal {
+    font-size: 12em;
+}
+
+
+
+.navegacion__enlace{
+    display: block;
+    text-align: center;
+    font-size: 1.3rem;
+    color: white;
+}
+@media (min-width:768px){
+    .navegacion{
+        display: flex;
+        gap:2rem; /*es una separación entre los menues*/
+    }
+    .contenido-principal{
+        display: grid;
+        grid-template-columns: 2fr 1fr; /*2 fracciones para las img y 1 fr para el texto*/
+        column-gap: 4rem;
+    }
+}
+.entrada{
+    border-bottom: 1px solid #e1e1e1 ;
+    margin-bottom: 2rem;
+}
+.entrada:last-of-type{
+    border: none; /* en la ultima que encuentra la clase entrada la personaliza sola*/
+    margin-bottom: 0px;
+}
+.boton{
+    display: block; /*en un dispositivo movil tome todo el lugar disponible*/
+    color: white;
+    text-align: center;
+    padding: 1rem 3rem;
+    background-color: black;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+@media (min-width:768px){
+    .boton{
+        display: inline-block;/*en un dispositivo movil tome todo el lugar que tiene de base*/
+    }
+    
+}
+.boton--secundario{
+    background-color: #eeb812 ;
+    color: white;
+}
+.sidebar{
+    margin-top: 2.5rem;
+}
+.cursos{
+    list-style: none;
+}
+.widget-curso{
+    border-bottom: 1px solid gray;
+    margin-bottom: 2rem;
+}
+.widget-curso:last-of-type{
+    border: none;
+    margin-bottom: 0;
+}
+.widget-curso__label{
+    font-weight: 700;
+    margin: 20px;
+}
+.widget-curso__informacion{
+    font-weight: 400;
+}
+@media (min-width:768px){
+    .footer{
+        --bs-bg-opacity: 1;
+        background-color: rgba(var(--bs-dark-rgb),var(--bs-bg-opacity))!important;
+        border-top: 1px solid gray;
+        padding-top: 3rem;
+        position: fixed;
+        bottom: -100%; /*hace que el contenido se salga de la pantalla*/
+        transition: all 0.25s ease-in;
+        width: 100%;
+    } 
+}
+@media (max-width:768px){
+    .btn-flotante{
+        display: none;
+    }
+    
+}
+
+
+.footer{
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-dark-rgb),var(--bs-bg-opacity))!important;
+}
+.footer.activo{
+    bottom: 0;
+}
+.footer.contenedor{
+    display: grid;
+    grid-template-columns: repeat(1 , 1fr);
+    grid-gap:1rem;
+    
+    
+}
+.footer .nav-footer{
+    padding: 1rem;
+    display:block;
+    padding:0 5rem 5rem 5rem;
+    text-align: center;  
+
+}
+.footer .nav-footer h3 {
+    font-size: 1.2rem;
+}
+.footer .menu a{
+    background-color: rgba(var(--bs-dark-rgb),var(--bs-bg-opacity))!important;
+    
+    text-decoration: none;
+    display: block;
+    padding-top: .5rem;
+}
+.btn-flotante{
+    position: fixed; /*fixed significa que este siempre en la pantalla*/
+    bottom: 1rem;
+    right: 1rem;
+    padding: .5rem 2rem;
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-dark-rgb),var(--bs-bg-opacity))!important;
+    
+    text-decoration: none;   
+}
+
+.btn-flotante.activo{
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-dark-rgb),var(--bs-bg-opacity))!important;
+    color: black;
+}
+
+
+
