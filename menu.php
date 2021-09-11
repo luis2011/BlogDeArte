@@ -2,7 +2,7 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-dark">
     <div class="container-fluid">
         <a class="navbar-brand text-warning" href="./index.php">
-            <h1 class="logo__nombre centrar-texto">Blog<span class="logo__bold"> De Arte</span></h1>
+            <h1 class="logo__nombre centrar-texto">Castro<span class="logo__bold"> El Sucio</span></h1>
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>

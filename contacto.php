@@ -67,14 +67,14 @@ require_once './menu.php';
                         if (isset($nombre)) {
                             if (isset($email)) {
                                 if (isset($mensaje)) {
-                                    $para = "info@castroelsucio.ar"; //colocar aqui el correo a dodne quieres que llegue
+                                    $para = "castroelsucio@outlook.com"; //colocar aqui el correo a dodne quieres que llegue
                                     $asunto = "consulta";
                                     $cuerpo = $nombre . "\n" . $apellido . "\n" . $email . "\n" . $telefono . "\n" . $mensaje;
                                     $adicional = "From: noreply@jacoboamaru.com";
 
                                     mail($para, $asunto, $cuerpo, $adicional);
                     ?>
-                                    <p>Envio exitoso</p>
+                                    <p class="text-warning">Envio exitoso, nos estaremos comunicando con Ud.</p>
                     <?php
                                 }
                             }
