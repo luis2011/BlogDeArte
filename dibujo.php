@@ -162,18 +162,19 @@ require_once './menu.php';
             'material': 'Grafito sobre papel',
             'medida': '21x28cm',
         },
-        /*{
+        {
             'id': '12',
             'titulo': 'Masturbación 1',
             'material': 'Grafito sobre papel',
             'medida': '21x28cm',
-        },*/
+        }
     ]
 
     for (x of obj) {
         //console.log(x.name + ' ' + x.email);
 
-        if (x.id == 3 || x.id == 4 || x.id == 5 || x.id == 6) {
+        if (x.id == 3 || x.id == 4 || x.id == 5 || x.id == 6 || x.id == 12) {
+
             galeria.innerHTML += `
         <li class="col">
             <div class="card mt-2">
@@ -183,12 +184,13 @@ require_once './menu.php';
             </div>
             <div class="modal fade" id="id${x.id}" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <button type="button" class="btn-close ml-2" data-bs-dismiss="modal" aria-label="Close"></button>
-                <div class=" modal-dialog modal-lg modal-dialog-centered " style="width: 35rem;">
+                <div class=" modal-dialog modal-lg modal-dialog-centered ">
+                
                 <div class="card mt-2">  
-                    <img src="./img/${x.id}.jpg" alt="..." class=" img-fluid rounded">
+                    <img src="./img/${x.id}.jpg" alt="arte" class="img-fluid rounded">
                       <div class="card-body" 
                         style="position: absolute;     
-                        top: 70%;
+                        top: 55%;
                         left: 30%;   
                         ">
                         <h5 class="card-title">${x.titulo}</h5>
@@ -197,6 +199,7 @@ require_once './menu.php';
                         </div>
                     </div>
                 </div>
+
             </div>
         </li>
         `
@@ -210,12 +213,12 @@ require_once './menu.php';
             </div>
             <div class="modal fade" id="id${x.id}" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <button type="button" class="btn-close ml-2" data-bs-dismiss="modal" aria-label="Close"></button>
-                <div class=" modal-dialog modal-lg modal-dialog-centered " style="width: 35rem;">
+                <div class=" modal-dialog modal-lg modal-dialog-centered" >
                 <div class="card mt-2">  
-                    <img src="./img/${x.id}.jpg" alt="..." class=" img-fluid rounded">
+                    <img src="./img/${x.id}.jpg" alt="arte" class="img-fluid rounded">
                       <div class="card-body" 
                         style="position: absolute;     
-                        top: 85%;
+                        top: 75%;
                         left: 30%;   
                         ">
                         <h5 class="card-title">${x.titulo}</h5>
