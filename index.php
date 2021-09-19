@@ -13,8 +13,13 @@ require_once './menu.php';
         }
 
         .container {
-            padding-top: 150px;
             height: 400px;
+        }
+
+        .videoSoldador {
+            padding-top: 1rem;
+            display: flex;
+            align-items: flex-end;
         }
     }
 </style>
@@ -29,14 +34,17 @@ require_once './menu.php';
     </div>
 </div-->
 
-<div class="container">
-    <div style="height: 85vh; background-color:white; background-size: 100% 100%;
-  background-repeat:no-repeat;
-  background:url(./img/1.jpg);
-  background-size: cover;">
 
+
+<div class="container">
+    <div class="videoSoldador">
+        <video width="100%" height="100%" controls>
+            <source src="./videos/Soldador.mp4" type="video/mp4">
+            Tu navegador no soporta los vídeos de HTML5
+        </video>
     </div>
 </div>
+
 
 <?php
 require_once './footer.php';
