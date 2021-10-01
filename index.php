@@ -34,16 +34,20 @@ require_once './menu.php';
     </div>
 </div-->
 
-
-
 <div class="container">
+    <div>
+        <img src="./img/Portada.jpg" alt="" class="img_fluid">
+    </div>
+</div>
+
+<!--div class="container">
     <div class="videoSoldador">
-        <video width="100%" height="100%" controls>
+        <video width="100%" height="100%" controls autoplay>
             <source src="./videos/Soldador.mp4" type="video/mp4">
             Tu navegador no soporta los vídeos de HTML5
         </video>
     </div>
-</div>
+</div-->
 
 
 <?php

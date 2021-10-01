@@ -63,39 +63,6 @@ require_once './menu.php';
 
 
 <script>
-    /*
-  const imagenes = [1, 2, 3, 4, 5, 6];
-    const galeria = document.getElementById('galeria');
-
-    for (imagen of imagenes) {
-        galeria.innerHTML += `
-        
-        <div class="col">
-            <div class="card mt-2">
-                <a href="#" data-bs-toggle="modal" data-bs-target="#id${imagen}">
-                    <img src="./img/${imagen}.jpg" class="card-img-top" alt="...">
-                </a>
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                    <p>Precio</p>
-                </div>
-            </div>
-
-           
-            <div class="modal fade" id="id${imagen}" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                <button type="button" class="btn-close ml-2" data-bs-dismiss="modal" aria-label="Close"></button>
-                <div class="modal-dialog modal-lg modal-dialog-centered" style="width: 35rem;">
-                    <img src="./img/${imagen}.jpg" alt="..." class="img-fluid rounded">
-
-                </div>
-            </div>
-        </div>
-       
-        `
-    }*/
-
-
     const obj = [{
             'id': '1',
             'titulo': 'Masturbación 1',
@@ -167,78 +134,71 @@ require_once './menu.php';
             'titulo': 'Masturbación 1',
             'material': 'Grafito sobre papel',
             'medida': '21x28cm',
+        },
+        {
+            'id': '13',
+            'titulo': 'Masturbación 1',
+            'material': 'Grafito sobre papel',
+            'medida': '21x28cm',
+        },
+        {
+            'id': '14',
+            'titulo': 'Masturbación 1',
+            'material': 'Grafito sobre papel',
+            'medida': '21x28cm',
+        },
+        {
+            'id': '15',
+            'titulo': 'Masturbación 1',
+            'material': 'Grafito sobre papel',
+            'medida': '21x28cm',
+        },
+        {
+            'id': '16',
+            'titulo': 'Masturbación 1',
+            'material': 'Grafito sobre papel',
+            'medida': '21x28cm',
         }
     ]
 
+    let menu = "dibu_"
     for (x of obj) {
-        //console.log(x.name + ' ' + x.email);
 
-        if (x.id == 3 || x.id == 4 || x.id == 5 || x.id == 6 || x.id == 12) {
 
-            galeria.innerHTML += `
+        galeria.innerHTML += `
         <li class="col">
-            <div class="card mt-2">
+        <div class="card mt-2" style="background: black; border-color: black;>
                 <a href="#" data-bs-toggle="modal" data-bs-target="#id${x.id}">
-                    <img src="./img/${x.id}.jpg" class="card-img-top" alt="...">
+                    <img src="./img/${menu+x.id}.jpg" class="card-img-top" alt="...">
                 </a>
+                <div>
+                <h6 class="text-light text-center mt-2">${x.titulo}</h6>
+                <p class="text-light text-center">${x.material}</p>
+                <p class="text-light text-center">${x.medida}</p>
+                </div>
             </div>
             <div class="modal fade" id="id${x.id}" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <button type="button" class="btn-close ml-2" data-bs-dismiss="modal" aria-label="Close"></button>
                 <div class=" modal-dialog modal-lg modal-dialog-centered ">
                 
                 <div class="card mt-2">  
-                    <img src="./img/${x.id}.jpg" alt="arte" class="img-fluid rounded">
-                      <div class="card-body" 
-                        style="position: absolute;     
-                        top: 55%;
-                        left: 30%;   
-                        ">
-                        <h5 class="card-title">${x.titulo}</h5>
-                        <p class="card-text">${x.material}</p>
-                        <p>${x.medida}</p>
-                        </div>
+                    <img src="./img/${menu+x.id}.jpg" alt="arte" class="img-fluid rounded">
                     </div>
                 </div>
 
             </div>
         </li>
         `
-        } else {
-            galeria.innerHTML += `
-        <li class="col">
-            <div class="card mt-2">
-                <a href="#" data-bs-toggle="modal" data-bs-target="#id${x.id}">
-                    <img src="./img/${x.id}.jpg" class="card-img-top" alt="...">
-                </a>
-            </div>
-            <div class="modal fade" id="id${x.id}" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                <button type="button" class="btn-close ml-2" data-bs-dismiss="modal" aria-label="Close"></button>
-                <div class=" modal-dialog modal-lg modal-dialog-centered" >
-                <div class="card mt-2">  
-                    <img src="./img/${x.id}.jpg" alt="arte" class="img-fluid rounded">
-                      <div class="card-body" 
-                        style="position: absolute;     
-                        top: 75%;
-                        left: 30%;   
-                        ">
-                        <h5 class="card-title">${x.titulo}</h5>
-                        <p class="card-text">${x.material}</p>
-                        <p>${x.medida}</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </li>
-        `
-        }
+
+
     }
 </script>
 <script>
     $(document).ready(function() {
         $('.gallery li:lt(3)').show();
         $('.less').hide();
-        var items = 12;
-        var shown = 3;
+        var items = 18; // cambiar la cantidad de item en cada pagina
+        var shown = 6;
         $('.more').click(function() {
             $('.less').show();
             shown = $('.gallery li:visible').length + 3;
