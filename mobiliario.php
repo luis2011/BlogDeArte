@@ -101,183 +101,183 @@ require_once './menu.php';
 
     const obj = [{
             'id': '1',
-            'titulo': 'Masturbación 1',
-            'material': 'Grafito sobre papel',
-            'medida': '21x28cm',
+            'titulo': 'Cama con dossel "Sueño Saudita"',
+            'material': '2mts x 1,50 mts x 2mts',
+            'medida': ' ',
         },
         {
             'id': '2',
-            'titulo': 'Masturbación 1',
-            'material': 'Grafito sobre papel',
-            'medida': '21x28cm',
+            'titulo': 'Sueño Saudita detalle',
+            'material': ' ',
+            'medida': ' ',
         },
         {
             'id': '3',
-            'titulo': 'Masturbación 1',
-            'material': 'Grafito sobre papel',
-            'medida': '21x28cm',
+            'titulo': 'Sueño Saudita detalle',
+            'material': ' ',
+            'medida': ' ',
         },
         {
             'id': '4',
-            'titulo': 'Masturbación 1',
-            'material': 'Grafito sobre papel',
-            'medida': '21x28cm',
+            'titulo': 'Sueño Saudita detalle',
+            'material': ' ',
+            'medida': ' ',
         },
         {
             'id': '5',
-            'titulo': 'Masturbación 1',
-            'material': 'Grafito sobre papel',
-            'medida': '21x28cm',
+            'titulo': 'Sueño Saudita detalle',
+            'material': ' ',
+            'medida': ' ',
         },
         {
             'id': '6',
-            'titulo': 'Masturbación 1',
-            'material': 'Grafito sobre papel',
-            'medida': '21x28cm',
+            'titulo': 'Sueño Saudita detalle',
+            'material': ' ',
+            'medida': ' ',
         },
         {
             'id': '7',
-            'titulo': 'Masturbación 1',
-            'material': 'Grafito sobre papel',
-            'medida': '21x28cm',
+            'titulo': 'Sueño Saudita detalle',
+            'material': ' ',
+            'medida': ' ',
         },
         {
             'id': '8',
-            'titulo': 'Masturbación 1',
-            'material': 'Grafito sobre papel',
-            'medida': '21x28cm',
+            'titulo': 'Sueño Saudita detalle',
+            'material': ' ',
+            'medida': ' ',
         },
         {
             'id': '9',
-            'titulo': 'Masturbación 1',
-            'material': 'Grafito sobre papel',
-            'medida': '21x28cm',
+            'titulo': 'Sueño Saudita detalle',
+            'material': ' ',
+            'medida': ' ',
         },
         {
             'id': '10',
-            'titulo': 'Masturbación 1',
-            'material': 'Grafito sobre papel',
-            'medida': '21x28cm',
+            'titulo': 'Sofa estructura de hierro tapizado en pana',
+            'material': '1,80mts x 0,70mts x 0,90mts',
+            'medida': ' ',
         },
         {
             'id': '11',
-            'titulo': 'Masturbación 1',
-            'material': 'Grafito sobre papel',
-            'medida': '21x28cm',
+            'titulo': 'Sofa estructura de hierro detalle',
+            'material': ' ',
+            'medida': ' ',
         },
         {
             'id': '12',
-            'titulo': 'Masturbación 1',
-            'material': 'Grafito sobre papel',
-            'medida': '21x28cm',
+            'titulo': ' ',
+            'material': ' ',
+            'medida': ' ',
         },
         {
             'id': '13',
-            'titulo': 'Masturbación 1',
-            'material': 'Grafito sobre papel',
-            'medida': '21x28cm',
+            'titulo': ' ',
+            'material': ' ',
+            'medida': ' ',
         },
         {
             'id': '14',
-            'titulo': 'Masturbación 1',
-            'material': 'Grafito sobre papel',
-            'medida': '21x28cm',
+            'titulo': ' ',
+            'material': ' ',
+            'medida': ' ',
         },
         {
             'id': '15',
-            'titulo': 'Masturbación 1',
-            'material': 'Grafito sobre papel',
-            'medida': '21x28cm',
+            'titulo': ' ',
+            'material': ' ',
+            'medida': ' ',
         },
         {
             'id': '16',
-            'titulo': 'Masturbación 1',
-            'material': 'Grafito sobre papel',
-            'medida': '21x28cm',
+            'titulo': ' ',
+            'material': ' ',
+            'medida': ' ',
         },
         {
             'id': '17',
-            'titulo': 'Masturbación 1',
-            'material': 'Grafito sobre papel',
-            'medida': '21x28cm',
+            'titulo': ' ',
+            'material': ' ',
+            'medida': ' ',
         },
         {
             'id': '18',
-            'titulo': 'Masturbación 1',
-            'material': 'Grafito sobre papel',
-            'medida': '21x28cm',
+            'titulo': ' ',
+            'material': ' ',
+            'medida': ' ',
         },
         {
             'id': '19',
-            'titulo': 'Masturbación 1',
-            'material': 'Grafito sobre papel',
-            'medida': '21x28cm',
+            'titulo': ' ',
+            'material': ' ',
+            'medida': ' ',
         },
         {
             'id': '20',
-            'titulo': 'Masturbación 1',
-            'material': 'Grafito sobre papel',
-            'medida': '21x28cm',
+            'titulo': ' ',
+            'material': ' ',
+            'medida': ' ',
         },
         {
             'id': '21',
-            'titulo': 'Masturbación 1',
-            'material': 'Grafito sobre papel',
-            'medida': '21x28cm',
+            'titulo': ' ',
+            'material': ' ',
+            'medida': ' ',
         },
         {
             'id': '22',
-            'titulo': 'Masturbación 1',
-            'material': 'Grafito sobre papel',
-            'medida': '21x28cm',
+            'titulo': ' ',
+            'material': ' ',
+            'medida': ' ',
         },
         {
             'id': '23',
-            'titulo': 'Masturbación 1',
-            'material': 'Grafito sobre papel',
-            'medida': '21x28cm',
+            'titulo': ' ',
+            'material': ' ',
+            'medida': ' ',
         },
         {
             'id': '24',
-            'titulo': 'Masturbación 1',
-            'material': 'Grafito sobre papel',
-            'medida': '21x28cm',
+            'titulo': ' ',
+            'material': ' ',
+            'medida': ' ',
         },
         {
             'id': '25',
-            'titulo': 'Masturbación 1',
-            'material': 'Grafito sobre papel',
-            'medida': '21x28cm',
+            'titulo': ' ',
+            'material': ' ',
+            'medida': ' ',
         },
         {
             'id': '26',
-            'titulo': 'Masturbación 1',
-            'material': 'Grafito sobre papel',
-            'medida': '21x28cm',
+            'titulo': ' ',
+            'material': ' ',
+            'medida': ' ',
         },
         {
             'id': '27',
-            'titulo': 'Masturbación 1',
-            'material': 'Grafito sobre papel',
-            'medida': '21x28cm',
+            'titulo': ' ',
+            'material': ' ',
+            'medida': ' ',
         },
         {
             'id': '28',
-            'titulo': 'Masturbación 1',
-            'material': 'Grafito sobre papel',
-            'medida': '21x28cm',
+            'titulo': ' ',
+            'material': ' ',
+            'medida': ' ',
         },
         {
             'id': '29',
-            'titulo': 'Masturbación 1',
-            'material': 'Grafito sobre papel',
-            'medida': '21x28cm',
+            'titulo': ' ',
+            'material': ' ',
+            'medida': ' ',
         },
         {
             'id': '30',
-            'titulo': 'Masturbación 1',
-            'material': 'Grafito sobre papel',
-            'medida': '21x28cm',
+            'titulo': ' ',
+            'material': ' ',
+            'medida': ' ',
         },
     ]
 
@@ -314,25 +314,29 @@ require_once './menu.php';
     }
 </script>
 <script>
+    let cantidadImagenes = 30; // cambiar la cantidad de item en cada pagina
     $(document).ready(function() {
-        $('.gallery li:lt(3)').show();
+        $('.gallery li:lt(6)').show();
         $('.less').hide();
-        var items = 30; // cambiar la cantidad de item en cada pagina
-        var shown = 6;
+        let items = cantidadImagenes;
+        let shown = 6;
         $('.more').click(function() {
-            $('.less').show();
-            shown = $('.gallery li:visible').length + 3;
+
+            shown = $('.gallery li:visible').length + 6;
             if (shown < items) {
                 $('.gallery li:lt(' + shown + ')').show(300);
             } else {
                 $('.gallery li:lt(' + items + ')').show(300);
                 $('.more').hide();
+                $('.less').show();
             }
         });
+
         $('.less').click(function() {
-            $('.gallery li').not(':lt(3)').hide(300);
+            $('.gallery li').not(':lt(6)').hide(300);
             $('.more').show();
             $('.less').hide();
+
         });
     });
 </script>

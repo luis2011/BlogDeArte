@@ -101,87 +101,87 @@ require_once './menu.php';
 
     const obj = [{
             'id': '1',
-            'titulo': 'Masturbación 1',
-            'material': 'Grafito sobre papel',
-            'medida': '21x28cm',
+            'titulo': 'Bajon de capitalismo y otras afecciones',
+            'material': 'Oleo sobre papel',
+            'medida': '50x70cm',
         },
         {
             'id': '2',
-            'titulo': 'Masturbación 1',
-            'material': 'Grafito sobre papel',
-            'medida': '21x28cm',
+            'titulo': 'Un pequeño hijo de puta',
+            'material': 'Oleo sobre lienzo',
+            'medida': '98x90cm',
         },
         {
             'id': '3',
-            'titulo': 'Masturbación 1',
-            'material': 'Grafito sobre papel',
-            'medida': '21x28cm',
+            'titulo': 'Caldero',
+            'material': 'Esmalte sintetico con acrilico sobre lienzo',
+            'medida': '50x30cm',
         },
         {
             'id': '4',
-            'titulo': 'Masturbación 1',
-            'material': 'Grafito sobre papel',
-            'medida': '21x28cm',
+            'titulo': 'Vicio de amor 1',
+            'material': 'Oleo sobre lienzo',
+            'medida': '50x70cm',
         },
         {
             'id': '5',
-            'titulo': 'Masturbación 1',
-            'material': 'Grafito sobre papel',
-            'medida': '21x28cm',
+            'titulo': 'Vicio de amor 2',
+            'material': 'Oleo sobre lienzo',
+            'medida': '50x70cm',
         },
         {
             'id': '6',
-            'titulo': 'Masturbación 1',
-            'material': 'Grafito sobre papel',
-            'medida': '21x28cm',
+            'titulo': 'Le dessert',
+            'material': 'Oleo sobre lienzo',
+            'medida': '70x88cm',
         },
         {
             'id': '7',
-            'titulo': 'Masturbación 1',
-            'material': 'Grafito sobre papel',
-            'medida': '21x28cm',
+            'titulo': 'Vicio de amor 3',
+            'material': 'Oleo sobre lienzo',
+            'medida': '70x50cm',
         },
         {
             'id': '8',
-            'titulo': 'Masturbación 1',
-            'material': 'Grafito sobre papel',
-            'medida': '21x28cm',
+            'titulo': 'De la masturbacion y el amor propio 2',
+            'material': 'Acrilico y fibron sobre papel',
+            'medida': '45x31cm',
         },
         {
             'id': '9',
-            'titulo': 'Masturbación 1',
-            'material': 'Grafito sobre papel',
-            'medida': '21x28cm',
+            'titulo': 'S/T',
+            'material': 'Acuarela sobre papel',
+            'medida': '31x45cm',
         },
         {
             'id': '10',
-            'titulo': 'Masturbación 1',
-            'material': 'Grafito sobre papel',
-            'medida': '21x28cm',
+            'titulo': 'S/T',
+            'material': 'Oleo sobre lienzo',
+            'medida': '1,20x90cm',
         },
         {
             'id': '11',
-            'titulo': 'Masturbación 1',
-            'material': 'Grafito sobre papel',
-            'medida': '21x28cm',
+            'titulo': 'S/T',
+            'material': 'Oleo sobre lienzo',
+            'medida': '1,20x90cm',
         },
         {
             'id': '12',
-            'titulo': 'Masturbación 1',
-            'material': 'Grafito sobre papel',
-            'medida': '21x28cm',
+            'titulo': 'Dualidad',
+            'material': 'Acrilico sobre madera',
+            'medida': '28x44cm',
         },
         {
             'id': '13',
-            'titulo': 'Masturbación 1',
-            'material': 'Grafito sobre papel',
-            'medida': '21x28cm',
+            'titulo': 'S/T',
+            'material': 'Acrilico sobre papel',
+            'medida': '46x31cm',
         },
         {
             'id': '14',
-            'titulo': 'Masturbación 1',
-            'material': 'Grafito sobre papel',
-            'medida': '21x28cm',
+            'titulo': 'S/T',
+            'material': 'Acrilico sobre lienzo',
+            'medida': '80x20cm',
         }
     ]
 
@@ -218,25 +218,29 @@ require_once './menu.php';
     }
 </script>
 <script>
+    let cantidadImagenes = 15; // cambiar la cantidad de item en cada pagina
     $(document).ready(function() {
-        $('.gallery li:lt(3)').show();
+        $('.gallery li:lt(6)').show();
         $('.less').hide();
-        var items = 15; // cambiar la cantidad de item en cada pagina
-        var shown = 6;
+        let items = cantidadImagenes;
+        let shown = 6;
         $('.more').click(function() {
-            $('.less').show();
-            shown = $('.gallery li:visible').length + 3;
+
+            shown = $('.gallery li:visible').length + 6;
             if (shown < items) {
                 $('.gallery li:lt(' + shown + ')').show(300);
             } else {
                 $('.gallery li:lt(' + items + ')').show(300);
                 $('.more').hide();
+                $('.less').show();
             }
         });
+
         $('.less').click(function() {
-            $('.gallery li').not(':lt(3)').hide(300);
+            $('.gallery li').not(':lt(6)').hide(300);
             $('.more').show();
             $('.less').hide();
+
         });
     });
 </script>

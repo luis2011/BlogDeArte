@@ -65,98 +65,98 @@ require_once './menu.php';
 <script>
     const obj = [{
             'id': '1',
-            'titulo': 'Masturbación 1',
-            'material': 'Grafito sobre papel',
+            'titulo': 'Comida chatarra',
+            'material': 'Lapices acuarelables en papel',
             'medida': '21x28cm',
         },
         {
             'id': '2',
-            'titulo': 'Masturbación 1',
+            'titulo': 'Restriccion',
             'material': 'Grafito sobre papel',
             'medida': '21x28cm',
         },
         {
             'id': '3',
-            'titulo': 'Masturbación 1',
+            'titulo': 'Play whit this',
             'material': 'Grafito sobre papel',
-            'medida': '21x28cm',
+            'medida': '28x46cm',
         },
         {
             'id': '4',
-            'titulo': 'Masturbación 1',
+            'titulo': 'S/T',
             'material': 'Grafito sobre papel',
             'medida': '21x28cm',
         },
         {
             'id': '5',
-            'titulo': 'Masturbación 1',
+            'titulo': 'S/T',
             'material': 'Grafito sobre papel',
             'medida': '21x28cm',
         },
         {
             'id': '6',
-            'titulo': 'Masturbación 1',
-            'material': 'Grafito sobre papel',
+            'titulo': 'S/T',
+            'material': 'Grafito y oleo sobre papel',
             'medida': '21x28cm',
         },
         {
             'id': '7',
-            'titulo': 'Masturbación 1',
+            'titulo': 'De la masturbacion y el amor propio 1',
             'material': 'Grafito sobre papel',
-            'medida': '21x28cm',
+            'medida': '28x21cm',
         },
         {
             'id': '8',
-            'titulo': 'Masturbación 1',
+            'titulo': 'Restriccion 2',
             'material': 'Grafito sobre papel',
             'medida': '21x28cm',
         },
         {
             'id': '9',
-            'titulo': 'Masturbación 1',
+            'titulo': 'Hold me tight',
             'material': 'Grafito sobre papel',
-            'medida': '21x28cm',
+            'medida': '28x21cm',
         },
         {
             'id': '10',
-            'titulo': 'Masturbación 1',
+            'titulo': 'Buranero',
             'material': 'Grafito sobre papel',
-            'medida': '21x28cm',
+            'medida': '28x21cm',
         },
         {
             'id': '11',
-            'titulo': 'Masturbación 1',
+            'titulo': 'La Jefa',
             'material': 'Grafito sobre papel',
-            'medida': '21x28cm',
+            'medida': '28x21cm',
         },
         {
             'id': '12',
-            'titulo': 'Masturbación 1',
+            'titulo': 'Mirada salvaje',
             'material': 'Grafito sobre papel',
-            'medida': '21x28cm',
+            'medida': '28x21cm',
         },
         {
             'id': '13',
-            'titulo': 'Masturbación 1',
-            'material': 'Grafito sobre papel',
-            'medida': '21x28cm',
+            'titulo': 'Boceto S/T',
+            'material': 'Dibujo en papel',
+            'medida': '28x21cm',
         },
         {
             'id': '14',
-            'titulo': 'Masturbación 1',
-            'material': 'Grafito sobre papel',
-            'medida': '21x28cm',
+            'titulo': 'Boceto S/T',
+            'material': 'Acuarela en papel',
+            'medida': '28x21cm',
         },
         {
             'id': '15',
-            'titulo': 'Masturbación 1',
-            'material': 'Grafito sobre papel',
-            'medida': '21x28cm',
+            'titulo': 'La virgen de Masoka',
+            'material': 'Fotocopia, grafito y tinta china',
+            'medida': '28x21cm',
         },
         {
             'id': '16',
-            'titulo': 'Masturbación 1',
-            'material': 'Grafito sobre papel',
+            'titulo': 'Choke`s on you',
+            'material': 'Acuarela sobre papel',
             'medida': '21x28cm',
         }
     ]
@@ -194,25 +194,29 @@ require_once './menu.php';
     }
 </script>
 <script>
+    let cantidadImagenes = 18; // cambiar la cantidad de item en cada pagina
     $(document).ready(function() {
-        $('.gallery li:lt(3)').show();
+        $('.gallery li:lt(6)').show();
         $('.less').hide();
-        var items = 18; // cambiar la cantidad de item en cada pagina
-        var shown = 6;
+        let items = cantidadImagenes;
+        let shown = 6;
         $('.more').click(function() {
-            $('.less').show();
-            shown = $('.gallery li:visible').length + 3;
+
+            shown = $('.gallery li:visible').length + 6;
             if (shown < items) {
                 $('.gallery li:lt(' + shown + ')').show(300);
             } else {
                 $('.gallery li:lt(' + items + ')').show(300);
                 $('.more').hide();
+                $('.less').show();
             }
         });
+
         $('.less').click(function() {
-            $('.gallery li').not(':lt(3)').hide(300);
+            $('.gallery li').not(':lt(6)').hide(300);
             $('.more').show();
             $('.less').hide();
+
         });
     });
 </script>

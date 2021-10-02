@@ -65,171 +65,171 @@ require_once './menu.php';
 <script>
     const obj = [{
             'id': '1',
-            'titulo': 'Masturbación 1',
-            'material': 'Grafito sobre papel',
-            'medida': '21x28cm',
+            'titulo': 'Cerramiento / Pergola',
+            'material': '',
+            'medida': '',
         },
         {
             'id': '2',
-            'titulo': 'Masturbación 1',
-            'material': 'Grafito sobre papel',
-            'medida': '21x28cm',
+            'titulo': 'Cerramiento / Pergola detalle',
+            'material': '',
+            'medida': '',
         },
         {
             'id': '3',
-            'titulo': 'Masturbación 1',
-            'material': 'Grafito sobre papel',
-            'medida': '21x28cm',
+            'titulo': 'Cerramiento / Pergola detalle',
+            'material': '',
+            'medida': '',
         },
         {
             'id': '4',
-            'titulo': 'Masturbación 1',
-            'material': 'Grafito sobre papel',
-            'medida': '21x28cm',
+            'titulo': 'Cerramiento / Pergola detalle',
+            'material': '',
+            'medida': '',
         },
         {
             'id': '5',
-            'titulo': 'Masturbación 1',
-            'material': 'Grafito sobre papel',
-            'medida': '21x28cm',
+            'titulo': 'Estructura para deck con jacuzzi en 5to piso',
+            'material': '',
+            'medida': '',
         },
         {
             'id': '6',
-            'titulo': 'Masturbación 1',
-            'material': 'Grafito sobre papel',
-            'medida': '21x28cm',
+            'titulo': 'Estructura para deck con jacuzzi en 5to piso detalle',
+            'material': '',
+            'medida': '',
         },
         {
             'id': '7',
-            'titulo': 'Masturbación 1',
-            'material': 'Grafito sobre papel',
-            'medida': '21x28cm',
+            'titulo': 'Estructura para deck con jacuzzi en 5to piso detalle',
+            'material': '',
+            'medida': '',
         },
         {
             'id': '8',
-            'titulo': 'Masturbación 1',
-            'material': 'Grafito sobre papel',
-            'medida': '21x28cm',
+            'titulo': 'Pergola flotante amurada a nucleo de hormigon en 5to piso',
+            'material': '',
+            'medida': '',
         },
         {
             'id': '9',
-            'titulo': 'Masturbación 1',
-            'material': 'Grafito sobre papel',
-            'medida': '21x28cm',
+            'titulo': 'Pergola flotante amurada a nucleo de hormigon en 5to piso detalle',
+            'material': '',
+            'medida': '',
         },
         {
             'id': '10',
-            'titulo': 'Masturbación 1',
-            'material': 'Grafito sobre papel',
-            'medida': '21x28cm',
+            'titulo': 'Pergola flotante amurada a nucleo de hormigon en 5to piso detalle',
+            'material': '',
+            'medida': '',
         },
         {
             'id': '11',
-            'titulo': 'Masturbación 1',
-            'material': 'Grafito sobre papel',
-            'medida': '21x28cm',
+            'titulo': 'Pergola flotante amurada a nucleo de hormigon en 5to piso detalle',
+            'material': '',
+            'medida': '',
         },
         {
             'id': '12',
-            'titulo': 'Masturbación 1',
-            'material': 'Grafito sobre papel',
-            'medida': '21x28cm',
+            'titulo': 'Estructura deck flotante en 7mo piso',
+            'material': '',
+            'medida': '',
         },
         {
             'id': '13',
-            'titulo': 'Masturbación 1',
-            'material': 'Grafito sobre papel',
-            'medida': '21x28cm',
+            'titulo': 'Estructura deck flotante en 7mo piso',
+            'material': '',
+            'medida': '',
         },
         {
             'id': '14',
-            'titulo': 'Masturbación 1',
-            'material': 'Grafito sobre papel',
-            'medida': '21x28cm',
+            'titulo': 'Estructura deck flotante en 7mo pio',
+            'material': '',
+            'medida': '',
         },
         {
             'id': '15',
-            'titulo': 'Masturbación 1',
-            'material': 'Grafito sobre papel',
-            'medida': '21x28cm',
+            'titulo': 'Ojo de buey de 50cmts de diametro, Piñeiro',
+            'material': '',
+            'medida': '',
         },
         {
             'id': '16',
-            'titulo': 'Masturbación 1',
-            'material': 'Grafito sobre papel',
-            'medida': '21x28cm',
+            'titulo': 'Rejas decorativas abulonadas, Piñeiro',
+            'material': '',
+            'medida': '',
         },
         {
             'id': '17',
-            'titulo': 'Masturbación 1',
-            'material': 'Grafito sobre papel',
-            'medida': '21x28cm',
+            'titulo': '',
+            'material': '',
+            'medida': '',
         },
         {
             'id': '18',
-            'titulo': 'Masturbación 1',
+            'titulo': 'Trabajo de restauracion, Piñeiro',
             'material': 'Grafito sobre papel',
             'medida': '21x28cm',
         },
         {
             'id': '19',
-            'titulo': 'Masturbación 1',
-            'material': 'Grafito sobre papel',
-            'medida': '21x28cm',
+            'titulo': 'Trabajo de restauracion, Piñeiro',
+            'material': '',
+            'medida': '',
         },
         {
             'id': '20',
-            'titulo': 'Masturbación 1',
-            'material': 'Grafito sobre papel',
-            'medida': '21x28cm',
+            'titulo': 'Halo de acero inoxidable, Amaru',
+            'material': '',
+            'medida': '',
         },
         {
             'id': '21',
-            'titulo': 'Masturbación 1',
-            'material': 'Grafito sobre papel',
-            'medida': '21x28cm',
+            'titulo': 'Articulos en hierro para performance Amaru + ANO',
+            'material': '',
+            'medida': '',
         },
         {
             'id': '22',
-            'titulo': 'Masturbación 1',
-            'material': 'Grafito sobre papel',
-            'medida': '21x28cm',
+            'titulo': 'Articulos en hierro para performance Amaru + ANO detalle',
+            'material': '',
+            'medida': '',
         },
         {
             'id': '23',
-            'titulo': 'Masturbación 1',
-            'material': 'Grafito sobre papel',
-            'medida': '21x28cm',
+            'titulo': 'Articulos en hierro para performance Amaru + ANO detalle',
+            'material': '',
+            'medida': '',
         },
         {
             'id': '24',
-            'titulo': 'Masturbación 1',
-            'material': 'Grafito sobre papel',
-            'medida': '21x28cm',
+            'titulo': 'Dorado en hierro, detalle de parrilla',
+            'material': '',
+            'medida': '',
         },
         {
             'id': '25',
-            'titulo': 'Masturbación 1',
-            'material': 'Grafito sobre papel',
-            'medida': '21x28cm',
+            'titulo': 'Puerta en hierro, concepto Kapha Vata Pitta',
+            'material': '',
+            'medida': '',
         },
         {
             'id': '26',
-            'titulo': 'Masturbación 1',
-            'material': 'Grafito sobre papel',
-            'medida': '21x28cm',
+            'titulo': 'Cartel pintado en MDF',
+            'material': '',
+            'medida': '',
         },
         {
             'id': '27',
-            'titulo': 'Masturbación 1',
-            'material': 'Grafito sobre papel',
-            'medida': '21x28cm',
+            'titulo': 'Baranda en tubo 2" y tensores con cable de acero',
+            'material': '',
+            'medida': '',
         },
         {
             'id': '28',
-            'titulo': 'Masturbación 1',
-            'material': 'Grafito sobre papel',
-            'medida': '21x28cm',
+            'titulo': 'Baranda en tubo 2" y tensores con cable de acero detalle',
+            'material': '',
+            'medida': '',
         }
     ]
 
@@ -268,25 +268,29 @@ require_once './menu.php';
     }
 </script>
 <script>
+    let cantidadImagenes = 30; // cambiar la cantidad de item en cada pagina
     $(document).ready(function() {
-        $('.gallery li:lt(3)').show();
+        $('.gallery li:lt(6)').show();
         $('.less').hide();
-        var items = 30; // cambiar la cantidad de item en cada pagina
-        var shown = 6;
+        let items = cantidadImagenes;
+        let shown = 6;
         $('.more').click(function() {
-            $('.less').show();
-            shown = $('.gallery li:visible').length + 3;
+
+            shown = $('.gallery li:visible').length + 6;
             if (shown < items) {
                 $('.gallery li:lt(' + shown + ')').show(300);
             } else {
                 $('.gallery li:lt(' + items + ')').show(300);
                 $('.more').hide();
+                $('.less').show();
             }
         });
+
         $('.less').click(function() {
-            $('.gallery li').not(':lt(3)').hide(300);
+            $('.gallery li').not(':lt(6)').hide(300);
             $('.more').show();
             $('.less').hide();
+
         });
     });
 </script>

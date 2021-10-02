@@ -109,87 +109,87 @@ require_once './menu.php';
 
     const obj = [{
             'id': '1',
-            'titulo': 'Masturbación 1',
-            'material': 'Grafito sobre papel',
-            'medida': '21x28cm',
+            'titulo': 'S/T',
+            'material': 'Cuadro en hierro',
+            'medida': '1,40x86cm',
         },
         {
             'id': '2',
-            'titulo': 'Masturbación 1',
-            'material': 'Grafito sobre papel',
-            'medida': '21x28cm',
+            'titulo': 'S/T detalle',
+            'material': ' ',
+            'medida': ' ',
         },
         {
             'id': '3',
-            'titulo': 'Masturbación 1',
-            'material': 'Grafito sobre papel',
-            'medida': '21x28cm',
+            'titulo': 'S/T detalle',
+            'material': ' ',
+            'medida': ' ',
         },
         {
             'id': '4',
-            'titulo': 'Masturbación 1',
-            'material': 'Grafito sobre papel',
-            'medida': '21x28cm',
+            'titulo': 'S/T detalle',
+            'material': ' ',
+            'medida': ' ',
         },
         {
             'id': '5',
-            'titulo': 'Masturbación 1',
-            'material': 'Grafito sobre papel',
-            'medida': '21x28cm',
+            'titulo': 'Accion aleatoria de la pictorica obrera 3',
+            'material': 'Cuadro en hierro',
+            'medida': '1,55x1,06cm',
         },
         {
             'id': '6',
-            'titulo': 'Masturbación 1',
-            'material': 'Grafito sobre papel',
-            'medida': '21x28cm',
+            'titulo': 'Accion aleatoria de la pictorica obrera 3 detalle',
+            'material': ' ',
+            'medida': ' ',
         },
         {
             'id': '7',
-            'titulo': 'Masturbación 1',
-            'material': 'Grafito sobre papel',
-            'medida': '21x28cm',
+            'titulo': 'Accion aleatoria de la pictorica obrera 3 detalle',
+            'material': ' ',
+            'medida': ' ',
         },
         {
             'id': '8',
-            'titulo': 'Masturbación 1',
-            'material': 'Grafito sobre papel',
-            'medida': '21x28cm',
+            'titulo': 'Sellos para escarificaciones',
+            'material': 'sellos en hierro',
+            'medida': ' ',
         },
         {
             'id': '9',
-            'titulo': 'Masturbación 1',
-            'material': 'Grafito sobre papel',
-            'medida': '21x28cm',
+            'titulo': 'Sellos para escarificaciones detalle',
+            'material': ' ',
+            'medida': ' ',
         },
         {
             'id': '10',
-            'titulo': 'Masturbación 1',
-            'material': 'Grafito sobre papel',
-            'medida': '21x28cm',
+            'titulo': 'Sello para escarificaciones detalle',
+            'material': ' ',
+            'medida': ' ',
         },
         {
             'id': '11',
-            'titulo': 'Masturbación 1',
-            'material': 'Grafito sobre papel',
-            'medida': '21x28cm',
+            'titulo': 'Cepo de hierro',
+            'material': ' ',
+            'medida': ' ',
         },
         {
             'id': '12',
-            'titulo': 'Masturbación 1',
-            'material': 'Grafito sobre papel',
-            'medida': '21x28cm',
+            'titulo': 'Pierna prototipo, preview de "El satiro"',
+            'material': 'Armazon de hierro y planchuela',
+            'medida': ' ',
         },
         {
             'id': '13',
-            'titulo': 'Masturbación 1',
-            'material': 'Grafito sobre papel',
-            'medida': '21x28cm',
+            'titulo': 'Armazon respaldo "Sueño Saudita"',
+            'material': ' ',
+            'medida': ' ',
         },
         {
             'id': '14',
-            'titulo': 'Masturbación 1',
-            'material': 'Grafito sobre papel',
-            'medida': '21x28cm',
+            'titulo': 'Porta velas en hierro',
+            'material': ' ',
+            'medida': ' ',
         }
     ]
 
@@ -224,25 +224,29 @@ require_once './menu.php';
     }
 </script>
 <script>
+    let cantidadImagenes = 15; // cambiar la cantidad de item en cada pagina
     $(document).ready(function() {
-        $('.gallery li:lt(3)').show();
+        $('.gallery li:lt(6)').show();
         $('.less').hide();
-        var items = 15; // cambiar la cantidad de item en cada pagina
-        var shown = 6;
+        let items = cantidadImagenes;
+        let shown = 6;
         $('.more').click(function() {
-            $('.less').show();
-            shown = $('.gallery li:visible').length + 3;
+
+            shown = $('.gallery li:visible').length + 6;
             if (shown < items) {
                 $('.gallery li:lt(' + shown + ')').show(300);
             } else {
                 $('.gallery li:lt(' + items + ')').show(300);
                 $('.more').hide();
+                $('.less').show();
             }
         });
+
         $('.less').click(function() {
-            $('.gallery li').not(':lt(3)').hide(300);
+            $('.gallery li').not(':lt(6)').hide(300);
             $('.more').show();
             $('.less').hide();
+
         });
     });
 </script>
