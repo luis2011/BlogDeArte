@@ -221,7 +221,7 @@ require_once './menu.php';
     $(document).ready(function() {
         $('.gallery li:lt(3)').show();
         $('.less').hide();
-        var items = 18; // cambiar la cantidad de item en cada pagina
+        var items = 15; // cambiar la cantidad de item en cada pagina
         var shown = 6;
         $('.more').click(function() {
             $('.less').show();
