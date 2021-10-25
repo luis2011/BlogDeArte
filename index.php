@@ -23,31 +23,67 @@ require_once './menu.php';
         }
     }
 </style>
-<!--div class="container">
-    <div class="text-warning titulo">
-        <div>
-            <h1 class="logo__nombre__principal centrar-texto">Castro</h1>
-        </div>
-        <div>
-            <h1 class="logo__nombre__principal centrar-texto">El Sucio</h1>
-        </div>
-    </div>
-</div-->
 
-<div class="container">
-    <div>
-        <img src="./img/Portada.jpg" alt="" class="img_fluid">
+
+<div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="./img/Portada.jpg" style="height: 85vh;" class="d-block mx-auto img-responsive" alt="portada">
+            <div class="carousel-caption d-md-block">
+                <button type="button" class="btn btn-warning parpadea">
+                    <a href="./shop.php" style="color:black">
+                        SHOP <i class="fas fa-shopping-cart"></i>
+                    </a>
+                </button>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="./img/dibu_1.jpg" style="height: 85vh;" class="d-block mx-auto img-responsive" alt="...">
+            <div class="carousel-caption d-md-block">
+                <button type="button" class="btn btn-warning parpadea">
+                    <a href="./shop.php" style="color:black">
+                        SHOP <i class="fas fa-shopping-cart"></i>
+                    </a>
+                </button>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="./img/pint_1.jpg" style="height: 85vh;" class="d-block mx-auto img-responsive" alt="...">
+            <div class="carousel-caption d-md-block">
+                <button type="button" class="btn btn-warning parpadea">
+                    <a href="./shop.php" style="color:black">
+                        SHOP <i class="fas fa-shopping-cart"></i>
+                    </a>
+                </button>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="./img/meta_1.jpg" style="height: 85vh;" class="d-block mx-auto img-responsive" alt="...">
+            <div class="carousel-caption d-md-block">
+                <button type="button" class="btn btn-warning parpadea">
+                    <a href="./shop.php" style="color:black">
+                        SHOP <i class="fas fa-shopping-cart"></i>
+                    </a>
+                </button>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="./img/mobi_1.jpg" style="height: 85vh;" class="d-block mx-auto img-responsive" alt="...">
+            <div class="carousel-caption  d-md-block">
+                <button type="button" class="btn btn-warning parpadea">
+                    <a href="./shop.php" style="color:black">
+                        SHOP <i class="fas fa-shopping-cart"></i>
+                    </a>
+                </button>
+            </div>
+        </div>
     </div>
 </div>
 
-<!--div class="container">
-    <div class="videoSoldador">
-        <video width="100%" height="100%" controls autoplay>
-            <source src="./videos/Soldador.mp4" type="video/mp4">
-            Tu navegador no soporta los vídeos de HTML5
-        </video>
-    </div>
-</div-->
+
+
+
+
 
 
 <?php
