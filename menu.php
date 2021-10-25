@@ -10,7 +10,7 @@
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav ms-auto mb-2 mb-lg-0">
                 <a class="nav-link text-warning nav-link-hover" href="./index.php">Inicio</a>
-                <a class="nav-link text-warning nav-link-hover" href="./shop.php">Shop</a>
+                <a class="nav-link text-warning nav-link-hover" href="./shop.php"><span class="parpadea">Shop</span> </a>
                 <a class="nav-link text-warning nav-link-hover" href="./dibujo.php">Dibujo</a>
                 <a class="nav-link text-warning nav-link-hover" href="./pintura.php">Pintura</a>
                 <a class="nav-link text-warning nav-link-hover" href="./metales.php">Metales</a>
