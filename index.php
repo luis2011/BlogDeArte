@@ -28,7 +28,10 @@ require_once './menu.php';
 <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-inner">
         <div class="carousel-item active">
-            <img src="./img/Portada.jpg" style="height: 85vh;" class="d-block mx-auto img-responsive" alt="portada">
+            <!--img src="./img/Portada.jpg" style="height: 85vh;" class="d-block mx-auto img-responsive" alt="portada"-->
+            <img src="./img/Portada.jpg" class="d-block w-100 img-responsive" alt="portada">
+
+
             <div class="carousel-caption d-md-block">
                 <button type="button" class="btn btn-warning parpadea">
                     <a href="./shop.php" style="color:black">
@@ -38,7 +41,19 @@ require_once './menu.php';
             </div>
         </div>
         <div class="carousel-item">
-            <img src="./img/dibu_1.jpg" style="height: 85vh;" class="d-block mx-auto img-responsive" alt="...">
+            <!--img src="./img/dibu_1.jpg" style="height: 85vh;" class="d-block mx-auto img-responsive" alt="..."-->
+            <img src="./img/dibu_1.jpg" class="d-block w-100 img-responsive" alt="portada">
+            <div class="carousel-caption d-md-block w-100">
+                <button type="button" class="btn btn-warning parpadea">
+                    <a href="./shop.php" style="color:black">
+                        SHOP <i class="fas fa-shopping-cart"></i>
+                    </a>
+                </button>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <!--img src="./img/pint_1.jpg" style="height: 85vh;" class="d-block mx-auto img-responsive" alt="..."-->
+            <img src="./img/pint_1.jpg" class="d-block w-100 img-responsive" alt="portada">
             <div class="carousel-caption d-md-block">
                 <button type="button" class="btn btn-warning parpadea">
                     <a href="./shop.php" style="color:black">
@@ -48,7 +63,8 @@ require_once './menu.php';
             </div>
         </div>
         <div class="carousel-item">
-            <img src="./img/pint_1.jpg" style="height: 85vh;" class="d-block mx-auto img-responsive" alt="...">
+            <!--img src="./img/meta_1.jpg" style="height: 85vh;" class="d-block mx-auto img-responsive" alt="..."-->
+            <img src="./img/meta_1.jpg" class="d-block w-100 img-responsive" alt="portada">
             <div class="carousel-caption d-md-block">
                 <button type="button" class="btn btn-warning parpadea">
                     <a href="./shop.php" style="color:black">
@@ -58,17 +74,8 @@ require_once './menu.php';
             </div>
         </div>
         <div class="carousel-item">
-            <img src="./img/meta_1.jpg" style="height: 85vh;" class="d-block mx-auto img-responsive" alt="...">
-            <div class="carousel-caption d-md-block">
-                <button type="button" class="btn btn-warning parpadea">
-                    <a href="./shop.php" style="color:black">
-                        SHOP <i class="fas fa-shopping-cart"></i>
-                    </a>
-                </button>
-            </div>
-        </div>
-        <div class="carousel-item">
-            <img src="./img/mobi_1.jpg" style="height: 85vh;" class="d-block mx-auto img-responsive" alt="...">
+            <!--img src="./img/mobi_1.jpg" style="height: 85vh;" class="d-block mx-auto img-responsive" alt="..."-->
+            <img src="./img/mobi_1.jpg" class="d-block w-100 img-responsive" alt="portada">
             <div class="carousel-caption  d-md-block">
                 <button type="button" class="btn btn-warning parpadea">
                     <a href="./shop.php" style="color:black">
