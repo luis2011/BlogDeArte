@@ -59,15 +59,17 @@ body{
 
 </style>
 
- <div class="container-fluid" style="margin-top: 80px;">
-<div class="slider">
+ <div class="container" style="margin-top: 80px;">
+    <img src="./img/Portada.jpg" alt="portada" class="img-fluid">
+
+ <!-- <div class="slider">
         <ul>
             <li><img src="./img/Portada.jpg" alt=""></li>
             <li><img src="./img/dibu_1.jpg" alt=""></li>
             <li><img src="./img/meta_1.jpg" alt=""></li>
             <li><img src="./img/pint_1.jpg" alt=""></li>
         </ul>
-    </div>
+    </div> -->
  </div>          
 
         
