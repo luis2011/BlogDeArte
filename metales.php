@@ -55,7 +55,7 @@ require_once './menu.php';
 
 
 <!--id="galeria"-->
-<div class="container">
+<div class="container" style="margin-top: 80px;">
 
     <ul id="galeria" class="row row-cols-1 row-cols-md-3 g-4 gallery">
 
@@ -64,7 +64,7 @@ require_once './menu.php';
     <div class="less">Ver Menos</div>
 </div>
 
-<div class="container">
+<div class="container" >
     <div class="videoSoldador">
         <video width="100%" height="100%" controls autoplay>
             <source src="./videos/Soldador.mp4" type="video/mp4">

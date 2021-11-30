@@ -5,7 +5,7 @@ require_once './head.php';
 <?php
 require_once './menu.php';
 ?>
-<div class="container mt-3 text-warning">
+<div class="container text-warning" style="margin-top: 90px;">
 
     <p class="text-warning"></p>
 

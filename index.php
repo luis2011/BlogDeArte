@@ -6,86 +6,71 @@ require_once './head.php';
 require_once './menu.php';
 ?>
 
+
 <style>
-    @media (max-width:767px) {
-        .logo__nombre__principal {
-            font-size: 3em;
-        }
+    *{
+    margin: 0;
+    
+}
+body{
+     overflow: hidden;
+}
 
-        .container {
-            height: 400px;
-        }
+.slider{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+}
+.slider ul{
+    display: flex;
+    padding: 0;
+    width: 400%;
+   
+    animation: cambio 20s infinite alternate;
+    animation-timing-function: ease-in;
+    
 
-        .videoSoldador {
-            padding-top: 1rem;
-            display: flex;
-            align-items: flex-end;
-        }
-    }
+}
+.slider li{
+    width: 100%;
+    list-style: none;
+}
+.slider img{
+    width: 100%;
+}
+
+@keyframes cambio{
+    0% {margin-left: 0;}
+    20% {margin-left: 0;}
+
+    25% {margin-left: -100%;}
+    45% {margin-left: -100%;}
+
+    50% {margin-left: -200%;}
+    70% {margin-left: -200%;}
+
+    75% {margin-left: -300%;}
+    100% {margin-left: -300%;}
+
+}
+
+
 </style>
 
-
-<div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-inner">
-        <div class="carousel-item active">
-            <!--img src="./img/Portada.jpg" style="height: 85vh;" class="d-block mx-auto img-responsive" alt="portada"-->
-            <img src="./img/Portada.jpg" class="d-block w-100 img-responsive" alt="portada">
-
-
-            <div class="carousel-caption d-md-block">
-                <button type="button" class="btn btn-warning parpadea">
-                    <a href="./shop.php" style="color:black">
-                        SHOP <i class="fas fa-shopping-cart"></i>
-                    </a>
-                </button>
-            </div>
-        </div>
-        <div class="carousel-item">
-            <!--img src="./img/dibu_1.jpg" style="height: 85vh;" class="d-block mx-auto img-responsive" alt="..."-->
-            <img src="./img/dibu_1.jpg" class="d-block w-100 img-responsive" alt="portada">
-            <div class="carousel-caption d-md-block w-100">
-                <button type="button" class="btn btn-warning parpadea">
-                    <a href="./shop.php" style="color:black">
-                        SHOP <i class="fas fa-shopping-cart"></i>
-                    </a>
-                </button>
-            </div>
-        </div>
-        <div class="carousel-item">
-            <!--img src="./img/pint_1.jpg" style="height: 85vh;" class="d-block mx-auto img-responsive" alt="..."-->
-            <img src="./img/pint_1.jpg" class="d-block w-100 img-responsive" alt="portada">
-            <div class="carousel-caption d-md-block">
-                <button type="button" class="btn btn-warning parpadea">
-                    <a href="./shop.php" style="color:black">
-                        SHOP <i class="fas fa-shopping-cart"></i>
-                    </a>
-                </button>
-            </div>
-        </div>
-        <div class="carousel-item">
-            <!--img src="./img/meta_1.jpg" style="height: 85vh;" class="d-block mx-auto img-responsive" alt="..."-->
-            <img src="./img/meta_1.jpg" class="d-block w-100 img-responsive" alt="portada">
-            <div class="carousel-caption d-md-block">
-                <button type="button" class="btn btn-warning parpadea">
-                    <a href="./shop.php" style="color:black">
-                        SHOP <i class="fas fa-shopping-cart"></i>
-                    </a>
-                </button>
-            </div>
-        </div>
-        <div class="carousel-item">
-            <!--img src="./img/mobi_1.jpg" style="height: 85vh;" class="d-block mx-auto img-responsive" alt="..."-->
-            <img src="./img/mobi_1.jpg" class="d-block w-100 img-responsive" alt="portada">
-            <div class="carousel-caption  d-md-block">
-                <button type="button" class="btn btn-warning parpadea">
-                    <a href="./shop.php" style="color:black">
-                        SHOP <i class="fas fa-shopping-cart"></i>
-                    </a>
-                </button>
-            </div>
-        </div>
+ <div class="container-fluid" style="margin-top: 80px;">
+<div class="slider">
+        <ul>
+            <li><img src="./img/Portada.jpg" alt=""></li>
+            <li><img src="./img/dibu_1.jpg" alt=""></li>
+            <li><img src="./img/meta_1.jpg" alt=""></li>
+            <li><img src="./img/pint_1.jpg" alt=""></li>
+        </ul>
     </div>
-</div>
+ </div>          
+
+        
 
 
 

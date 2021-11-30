@@ -55,7 +55,7 @@ require_once './menu.php';
 
 
 <!--id="galeria"-->
-<div class="container">
+<div class="container" style="margin-top: 80px;">
 
     <ul id="galeria" class="row row-cols-1 row-cols-md-3 g-4 gallery">
 

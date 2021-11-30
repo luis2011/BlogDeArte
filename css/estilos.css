@@ -80,13 +80,13 @@ textarea::placeholder {
     text-align: center;
     color: white;
 }
-@media (min-width:768px){
+/* @media (min-width:768px){
     .barra{
         display: flex;
         justify-content: space-between;
         align-items: center;
     }
-}
+} */
 
 .titulo{
     display: flex;
@@ -134,12 +134,13 @@ textarea::placeholder {
     text-transform: uppercase;
     font-weight: 700;
 }
-@media (min-width:768px){
+/*en un dispositivo movil tome todo el lugar que tiene de base*/
+/* @media (min-width:768px){
     .boton{
-        display: inline-block;/*en un dispositivo movil tome todo el lugar que tiene de base*/
+        display: inline-block;
     }
     
-}
+} */
 .boton--secundario{
     background-color: #eeb812 ;
     color: white;
@@ -165,25 +166,16 @@ textarea::placeholder {
 .widget-curso__informacion{
     font-weight: 400;
 }
-@media (min-width:768px){
-    .footer{
-        --bs-bg-opacity: 1;
-        background-color: rgba(var(--bs-dark-rgb),var(--bs-bg-opacity))!important;
-        border-top: 1px solid gray;
-        padding-top: 3rem;
-        position: fixed;
-        bottom: -100%; /*hace que el contenido se salga de la pantalla*/
-        transition: all 0.25s ease-in;
-        width: 100%;
-    } 
-}
-@media (max-width:768px){
-    .btn-flotante{
-        display: none;
-    }
-    
-}
-
+.footer{
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-dark-rgb),var(--bs-bg-opacity))!important;
+    border-top: 1px solid gray;
+    padding-top: 3rem;
+    position: fixed;
+    bottom: -100%; /*hace que el contenido se salga de la pantalla*/
+    transition: all 0.25s ease-in;
+    width: 100%;
+} 
 
 .footer{
     --bs-bg-opacity: 1;

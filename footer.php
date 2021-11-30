@@ -1,5 +1,5 @@
 <footer id="footer" class="footer">
-    <div class="contenedor">
+    <div class="container-fluid">
 
         <div class="nav-footer">
             <h2 class="text-warning" style="padding-top: 35px;">Encontranos en:</h2>
