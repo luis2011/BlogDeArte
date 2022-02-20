@@ -190,6 +190,12 @@ require_once './menu.php';
             'titulo': 'Porta velas en hierro',
             'material': ' ',
             'medida': ' ',
+        },
+        {
+            'id': '15',
+            'titulo': 'Erótico',
+            'material': ' ',
+            'medida': ' ',
         }
     ]
 

@@ -231,6 +231,49 @@ require_once './menu.php';
             'material': '',
             'medida': '',
         }
+        /******************************* */
+        ,
+        {
+            'id': '29',
+            'titulo': 'Sin descripción',
+            'material': '',
+            'medida': '',
+        }
+        ,
+        {
+            'id': '30',
+            'titulo': 'Sin descripción',
+            'material': '',
+            'medida': '',
+        }
+        ,
+        {
+            'id': '31',
+            'titulo': 'Sin descripción',
+            'material': '',
+            'medida': '',
+        }
+        ,
+        {
+            'id': '32',
+            'titulo': 'Sin descripción',
+            'material': '',
+            'medida': '',
+        }
+        ,
+        {
+            'id': '33',
+            'titulo': 'Sin descripción',
+            'material': '',
+            'medida': '',
+        }
+        ,
+        {
+            'id': '34',
+            'titulo': 'Sin descripción',
+            'material': '',
+            'medida': '',
+        }
     ]
 
 
@@ -268,7 +311,7 @@ require_once './menu.php';
     }
 </script>
 <script>
-    let cantidadImagenes = 30; // cambiar la cantidad de item en cada pagina
+    let cantidadImagenes = 34; // cambiar la cantidad de item en cada pagina
     $(document).ready(function() {
         $('.gallery li:lt(6)').show();
         $('.less').hide();
