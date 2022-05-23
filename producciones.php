@@ -1,9 +1,10 @@
 <?php
-require_once './head.php';
+//require_once './head.php';
 ?>
 
 <?php
-require_once './menu.php';
+//require_once './menu.php';
+//<a class="nav-link text-warning nav-link-hover" href="./producciones.php">Producciones</a> 
 ?>
 
 <style>

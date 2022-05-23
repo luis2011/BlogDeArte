@@ -14,7 +14,7 @@
                 <a class="nav-link text-warning nav-link-hover" href="./pintura.php">Pintura</a>
                 <a class="nav-link text-warning nav-link-hover" href="./metales.php">Metales</a>
                 <a class="nav-link text-warning nav-link-hover" href="./mobiliario.php">Mobiliarios</a>
-                <a class="nav-link text-warning nav-link-hover" href="./producciones.php">Producciones</a>
+                
                 <a class="nav-link text-warning nav-link-hover" href="./cv.php">Cv</a>
                 <a class="nav-link text-warning nav-link-hover" href="./contacto.php">Contacto</a>
             </div>
